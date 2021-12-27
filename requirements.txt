@@ -1,18 +1,18 @@
 # Telegram connection
-telethon >= 1.17.0
+git+https://github.com/LonamiWebs/Telethon@f9643bf7376a5953da2050a5361c9b465f7ee7d9#egg=Telethon
 
 # Config
-pythondialog ~= 3.5.1
+pythondialog ~= 3.5.2
 
 # Heroku & Updater
-heroku3 ~= 4.2.1
-gitpython ~= 3.1.9
+heroku3 ~= 4.2.3
+gitpython ~= 3.1.24
 
 # Translations
-babel ~= 2.8.0
+babel ~= 2.9.1, >= 2.9.1
 
 # Eval
 meval >= 2.4, ~= 2.4
 
 # Web
-aiohttp_jinja2 ~= 1.2.0 
+aiohttp_jinja2 ~= 1.5, >= 1.2.0
